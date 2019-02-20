@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DrinkListComponent } from './drink-list/drink-list.component';
-import { DrinkService } from './service/drink.service.ts';
+import { DrinkService } from './service/drink.service';
 
 @NgModule({
   declarations: [
