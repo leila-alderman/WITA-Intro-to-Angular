@@ -11,7 +11,7 @@ export class DrinkListComponent implements OnInit {
   constructor(private ds: DrinkService) { }
 
   ngOnInit() {
-    
+    this.ds.getRandomDrink();
   }
 
 }
